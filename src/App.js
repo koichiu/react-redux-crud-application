@@ -1,15 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component {
-    render() {
-	return (
-	    <div>
-		<label htmlFor="bar">bar</label>
-		<input type="text" onChange={() => {console.log("testes") }} />;
-	    </div>
-	)
-
-    }
+const App = () => {
+    return <div>Hi</div>
 }
 
 export default App;
